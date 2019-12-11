@@ -1,0 +1,60 @@
+JavaScript
+	javascript often abbreviated as JS is a high level, interpreted scripting language that confirms to the ECMAScript specification.
+javascript has curly-bracket syntax, functional programing language
+dynamic typing, prototype-based object-oriented, and first-class function.
+
+how do u call java script in html by using script tag
+	The script element allows authours to include script and data blocks in their
+documents. the element does not represent content for the user.
+
+
+<noscript>
+	this element represents nothing if scripting is enabled and represents its cildren if scripting is disabled.
+
+
+how do u check node js installed or not
+	fullstack_javascript>node --version
+
+
+Display
+	document.write()
+	window.alert()
+	console.log()
+	innerHtml()
+
+
+Documnet.write()
+
+
+	this function is used to write arbitary Html and content into page. If we use this function after an Html document is fully loaded will delete all exist html.it is used only for testing purpose.
+	ex:- documnet.write("Hello World");
+	document.write(variable);
+	documnet.write(4+2);
+	document.write("Hello World.<br>");
+	document.write("Hello World.<br>+variable+"<br>");
+
+Template literals
+	these are string literals allowing embedded expresion. and multiplelines of string and string interpolation features with them. tey are called "template string" in prior edition of the ES2015 spacification.
+
+Syntax
+	'string text'
+	'string text line 1
+	 string text line 2'
+
+	'string text ${expression} string text'
+	tag 'string text ${expresssion}
+
+
+->undefined 
+	 means a variable has  been declared but has not yet been assigend as value. on the other hand null is an assignment value.
+it can be assigned to a variable as a representation od the no value.
+
+
+->null
+	it is a keyword in javascript that signifies'no value'
+or nonexsistence of any value. if u wish to shred a variable off its assigned value
+you can simply asssign null to it.
+	var testnull = null;
+	console.log(typeof testnull);
+
+->value of boolean is object.
